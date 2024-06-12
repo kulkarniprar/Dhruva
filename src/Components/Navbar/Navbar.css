@@ -1,0 +1,40 @@
+.Bar {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #008B8B;*/
+    background-color: #E6E6FA;
+    
+    overflow: hidden;
+    
+
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .Bar a {
+    
+    float: left;
+    /*color: #f2f2f2;*/
+    /*color:#4B0082;*/
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  /* Change the color of links on hover */
+  .Bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .Bar a.active {
+    /*background-color: #00008B;*/
+    
+    color:#00008B;
+  }
