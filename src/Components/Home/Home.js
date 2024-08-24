@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import "./Home.css"
 //require('dotenv').config()
 import bg from "./bgp.jpeg"
-import ImageWithHoverText from '../Imagehover/Imagehover'
+//import ImageWithHoverText from '../Imagehover/Imagehover'
 /*const handleClick = () => {
   // Open the URL in a new tab
   window.open('/Explore', '_blank');
@@ -36,7 +36,7 @@ const Home = () => {
         </p>*/}
         <div className='Logo'>
           
-        <img src={bg} alt="Background Image" />
+        <img src={bg} alt="BackgroundImage" />
 
         </div>
 
