@@ -36,7 +36,7 @@ const Home = () => {
         </p>*/}
         <div className='Logo'>
           
-        <img src={bg} alt="Background Image" />
+        <img src={bg} />
 
         </div>
 
