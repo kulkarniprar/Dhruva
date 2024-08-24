@@ -36,7 +36,7 @@ const Home = () => {
         </p>*/}
         <div className='Logo'>
           
-        <img src={bg} />
+        <img src={bg} alt="Background Image" />
 
         </div>
 
@@ -45,7 +45,7 @@ const Home = () => {
 
       </div>
       <button onClick={handleClick} className='Explore'>Explore</button>
-      <h1 className='Subhead'>Current Projects</h1>
+      {/*<h1 className='Subhead'>Current Projects</h1>
       <div className='Update'>
         <div className='Blog'>
           <div className='Img1'>
@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <div className='IA'>
           <div className='Img2'>
-          {/*<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdpWm_3GGJ4HeTFMP_ab5lD4JUr-Va9K_xKQ&s" alt='IA'/>*/}
+          
           <ImageWithHoverText imageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdpWm_3GGJ4HeTFMP_ab5lD4JUr-Va9K_xKQ&s" text="Indian Calender" />
           </div>
           <p>Indian Astrophysics</p>
@@ -70,7 +70,7 @@ const Home = () => {
           <p>Journal</p>
         </div>
         
-      </div>
+      </div>*/}
     </div>
     </>
   )
