@@ -1,0 +1,52 @@
+/* src/Components/ImageViewer/ImageViewer.css */
+.image-viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto; /* Allows vertical scrolling */
+    padding: 20px;
+   
+    
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%; /* Max height for the content area */
+    overflow-y: auto; /* Enables vertical scrolling */
+    width: 100%;
+    /*padding-bottom: 5px;*/
+}
+
+.image-page {
+    margin-bottom: 20px; /* Space between images/pages */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image {
+    max-width: 70%;
+    height:max-content;
+    display: block; /* Removes any extra space below images */
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    background: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1001; /* Ensure button is above the content */
+}

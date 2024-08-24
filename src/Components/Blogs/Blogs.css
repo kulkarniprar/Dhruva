@@ -1,0 +1,142 @@
+/*body{
+background-color:black;
+
+}*/
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Main .text{
+    
+    color: #007bff; /* Blue color */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+}
+
+.Bintro{
+    color: white; /* Blue color */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+}
+
+.bhead{
+    color: #007bff; /* Blue color */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+}
+
+.B1 {
+    /* Center the content horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* Styling for the card appearance */
+    background-color: #333; /* Card background color */
+    color: white; /* Text color */
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+    padding: 20px; /* Space inside the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 10px; /* Space outside the card */
+    max-width: 1200px; /* Maximum width of the card */
+    width: 100%; /* Responsive width */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect */
+.B1:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhances the shadow for a more pronounced pop effect */
+}
+
+
+
+
+/*.B2{
+    
+    justify-content: center;
+    
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px; /* Spacing between letters 
+    line-height: 1.5; Line height 
+}*/
+.B2 {
+    /* Center the content horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    /* Styling for the card appearance */
+    background-color: #333; /* Card background color */
+    color: white; /* Text color */
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+    padding: 20px; /* Space inside the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 10px; /* Space outside the card */
+    max-width: 1200px; /* Maximum width of the card */
+    width: 100%; /* Responsive width */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect */
+.B2:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhances the shadow for a more pronounced pop effect */
+}
+
+
+.up{
+    color: #007bff; /* Blue color */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */  
+}
+
+.upb{
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+}
+
+.Exoimg{
+    height:100px;
+    width:100px;
+}
+

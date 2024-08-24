@@ -1,9 +1,10 @@
 body{
-    background-image:url("bgp.jpeg") ;
+    /*background-image:url("bgp.jpeg") ;*/
+    background-color:black;
     background-size: contain;
     background-position: center 100px;
     background-repeat: no-repeat;
-    /*height: 100vh; /* Ensure the body covers the entire viewport */
+    height: 100vh; 
     margin: 0;
     background-color: black;
     
@@ -25,13 +26,15 @@ body{
 }*/
 
 .Main{
-    /*background-color:black;*/
+    background-color:black;
+
+    /*background-image:url("bgp.jpeg") ;*/
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    
+    height: 100%;
     width:100vw;
     background-size: contain,cover;
     background-position:"center";
@@ -46,16 +49,125 @@ body{
     
 
 }
+/*.Explore{
+    background-color: #007bff;
+    color: #ffffff;
+    border: 1px solid #ffffff; /* White border */
+   /* padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none; /* Remove underline */
+    /*display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition 
+}*/
 
-.text{
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: #fff;;
+.Explore{
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.1); /* Soft shadow for depth */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+    
+
+    /* Gradient for shiny effect */
+    background-image: linear-gradient(45deg, #FFD520, #00c6ff);
+}
+.Explore:hover {
+    background-image: linear-gradient(45deg, #0056b3, #007bff); /* Darker gradient on hover */
+    box-shadow: 0 6px 8px rgba(0, 123, 255, 0.2); /* Increase shadow on hover */
+    transform: translateY(-1px); /* Lift the button slightly on hover for a press effect */
 }
 
-.text2{
+.Subhead{
+    color:#FFD520; /* Blue color */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+}
+.Intro .logo img{
+    width:100%;
+    height:auto;
+    align-items:center;
     justify-content: center;
-    font-weight: bold;
-    color:#fff;
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0;
+    padding: 0;
+}
+
+
+.Update{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+}
+.Blog{
+    color:aliceblue;
+    color: #FFD520; /* Blue color */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.IA{
+    color:aliceblue;
+    color:#FFD520; /* Blue color */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.Journal{
+    color: aliceblue;
+    color:#FFD520; /* Blue color */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    letter-spacing: 1px; /* Spacing between letters */
+    line-height: 1.5; /* Line height */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Img1{
+    margin: 10px; /* 10 pixels of margin on all sides */
+    margin-left: auto; /* Pushes the element to the right edge of its container */
+    margin-right: 20%;
+    display:block;
+    max-width: 100%;
+    height: auto;
+}
+
+.Img2{
+    padding-left: 30px;
+}
+
+.Img3{
+    padding-left: 30px;
 }

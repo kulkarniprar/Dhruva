@@ -1,0 +1,43 @@
+/* src/components/CardOpener/CardOpener.css */
+.card-opener {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    padding: 10px;
+    margin: 20px;
+    width: 200px; /* Adjust width as needed */
+    text-align: center; /* Center align text */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center align items horizontally */
+}
+
+.card-opener:hover {
+    transform: scale(1.05);
+}
+
+.card-opener-image {
+    width: 100%; /* Adjust to fit the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.card-opener-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Arrange title and description vertically */
+    align-items: center; /* Center align text horizontally */
+}
+
+.card-opener-title {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.card-opener-description {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 8px; /* Space between title and description */
+}

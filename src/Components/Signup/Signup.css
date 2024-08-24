@@ -1,0 +1,12 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    width:100vw;
+}
+
+
+.Submit-button{
+    
+    margin:10px;
+}
